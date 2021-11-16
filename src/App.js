@@ -44,7 +44,7 @@ function App() {
         <p>
           Super Cool OpenShift + App ID React App!
         </p>
-        {name && <h3>Welcome Back, {name}!</h3>}
+        {name && <h3>Hi, {name}!</h3>}
         <button onClick={handleLogin}>Login</button>
       </header>
     </div>
