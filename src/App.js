@@ -42,7 +42,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Super Cool OpenShift + App ID React App!
+         OpenShift + App ID React App!
         </p>
         {name && <h3>Hi, {name}!</h3>}
         <button onClick={handleLogin}>Login</button>
